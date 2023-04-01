@@ -1,0 +1,23 @@
+Webpack 5 + React
+1. В папке React запустить команду npm i для проектов app1, app3
+2. Собрать локально оба проекта: npm start
+3. Открыть http://localhost:3003/
+
+Webpack 5 + React + ExtJS
+1. В папке React запустить команду npm i для проектов app1, extjs-result
+2. Добавить в папку extjs-result библиотеку ExtJS
+3. Собрать локально проект app1: npm start
+4. Открыть файл react\extjs-result\src\index.html
+
+Кастомные элементы
+1. Для проекта notification загрузить зависимости, запустить команду npm i 
+2. Собрать локально проект notification: npm start
+3. Открыть файл http://localhost:3005/ - проверить, что появились Name, Value
+4. В папку ext-custom нужно добавить библиотеку ExtJS
+5. Открыть ext-custom\index.html, на странице должны отобразится Name, Value
+
+P.S. Если на странице ничего нет, нужно проверить какие бандлы собрались у проекта notification
+Перейти на http://localhost:3005/ и посмотреть в head подключенные файлы js, их нужно подключить и для проекта ext-custom
+
+
+

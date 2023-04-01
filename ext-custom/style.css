@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+	background-color: #eee
+}
+.notification-wrapper {
+	width: 40%;
+    margin-left: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}

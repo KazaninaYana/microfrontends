@@ -1,0 +1,2 @@
+import("./Component");
+/*import("./CustomElement");*/
